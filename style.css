@@ -1,0 +1,23 @@
+body {
+  background-color: #f3f4f5;
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #D1D1D1; 
+}
+
+#About Me {
+  background-color: #f3f4f5;
+}
+
+#Hobby {
+  background-color: #f3f4f5;
+
+}
+
+section {
+  padding-top: 5rem;
+  
+}
