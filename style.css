@@ -17,7 +17,34 @@ body {
 
 }
 
-section {
+.section {
   padding-top: 5rem;
-  
+
 }
+
+
+/*untuk layar device berukuran kecil*/
+@media screen and (max-width: 450px) {}
+
+
+/*untuk layar device berukuran sedang*/
+@media screen and (max-width: 575px) {
+    .skills-custom img {
+        width: 130%;
+    }
+
+    .footer-custom img {
+        width: 250%;
+    }
+ }
+  
+ /*untuk layar device berukuran besar*/
+ @media screen and (min-width: 800px) {
+     .skills-custom img {
+         width: 70%;
+    }
+
+    .footer-custom img {
+        width: 80%;
+    }
+ }
